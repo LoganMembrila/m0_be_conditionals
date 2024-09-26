@@ -63,15 +63,15 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 5
-has_sauce = false
+cups_of_flour = 3
+has_sauce = true
 
-if cups_of_flour < 2 && has_sauce = false
+if cups_of_flour < 2 && has_sauce == false
   puts "I cannot make a pizza"
-elsif cups_of_flour >= 2 && has_sauce = true
+elsif cups_of_flour >= 2 && has_sauce == true
   puts "I can make a pizza"
-elsif cups_of_flour < 2 || has_sauce = true
+elsif cups_of_flour < 2 || has_sauce == true
   puts "I cannot make a pizza"
-else cups_of_flour >= 2 || has_sauce = false
+else cups_of_flour >= 2 || has_sauce == false
   puts "I cannot make a pizza"
 end
